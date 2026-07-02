@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch SimpleAudioMon",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/SimpleAudioMon/bin/Debug/net9.0-windows/SimpleAudioMon.exe",
+            "cwd": "${workspaceFolder}/src/SimpleAudioMon",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        }
+    ]
+}
